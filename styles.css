@@ -1,0 +1,36 @@
+.container {
+    background: #eee;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form {
+    border: 5px solid #ccc;
+    padding: 30px;
+}
+input[type=text], input[type=number]{
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
+}
+input[type=button]{
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #5cb85c;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+input#reset {
+    background: #d9534f;
+    width: 100%;
+}
